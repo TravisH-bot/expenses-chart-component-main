@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className="main-container">
+        My balance $921.48 Spending - Last 7 days mon tue wed thu fri sat sun
+        Total this month $478.33 +2.4% from last month
+        <div className="attribution">
+          <p class="attribution">
+            Challenge by{" "}
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Frontend Mentor
+            </a>
+            . Coded by{" "}
+            <a href="https://www.frontendmentor.io/profile/TravisH-bot">
+              Travis H
+            </a>
+            .
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
