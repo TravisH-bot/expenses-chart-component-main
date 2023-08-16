@@ -1,12 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Font - 400, 700 - 1.125rem / 18px*/
+  --font: "DM Sans", sans-serif;
+
+  /* Primary Colors */
+  --soft-red: hsl(10, 79%, 65%);
+  --cyan: hsl(186, 34%, 60%);
+
+  /* Neutral Colors */
+  --dark-brown: hsl(25, 47%, 15%);
+  --medium-brown: hsl(28, 10%, 53%);
+  --cream: hsl(27, 66%, 92%);
+  --very-pale-orange: hsl(33, 100%, 98%);
+}
+
 body {
   min-height: 100svh;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: var(--font);
+  background-color: var(--cream);
 }
 
+/* ==================================== Main Container ==================================== */
 .main-container {
-  width: 20rem;
-  height: 20rem;
-  background-color: antiquewhite;
+  width: 30rem;
+  height: 30rem;
+  background-color: var(--very-pale-orange);
+  border-radius: 0.8rem;
+  padding: 2rem;
+}
+
+.main-container h2 {
+  font-size: 1.7rem;
+  margin-bottom: 3rem;
+}
+
+/* ==================================== Balance ==================================== */
+.balance {
+  height: 7rem;
+  width: 30rem;
+  background-color: var(--soft-red);
+  margin-bottom: 1rem;
+  border-radius: 0.8rem;
+  display: flex;
+  padding: 2rem;
+  color: var(--very-pale-orange);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.balance h2 {
+  font-size: 1.7rem;
+}
+
+.balance h5 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.my-balance {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 4em;
+  height: 4rem;
 }
