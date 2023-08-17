@@ -54,7 +54,6 @@ const MainContainer = () => {
         },
       },
     },
-
     scales: {
       x: {
         grid: {

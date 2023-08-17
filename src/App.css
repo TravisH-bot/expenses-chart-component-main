@@ -80,6 +80,7 @@ body {
 }
 
 .bar-graph {
+  height: 12.8rem;
   cursor: pointer;
   margin-bottom: 2rem;
 }
@@ -117,6 +118,52 @@ body {
   font-weight: 700;
 }
 
+.attribution {
+  text-align: center;
+  margin-top: 3rem;
+}
+
 /* ==================================== Media Queries ==================================== */
 @media screen and (max-width: 768px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body {
+    min-height: 100svh;
+  }
+
+  /* ==================================== Balance ==================================== */
+  .balance {
+    width: 21.438rem;
+    padding: 1rem;
+  }
+
+  /* ==================================== Main Container ==================================== */
+  .main-container {
+    width: 21.438rem;
+    padding: 1rem;
+    height: 25rem;
+  }
+
+  .main-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .bar-graph {
+    height: 9.7rem;
+    position: relative;
+  }
+
+  .month-total h1 {
+    font-size: 2rem;
+  }
+
+  .attribution {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
 }
