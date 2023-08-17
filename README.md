@@ -35,11 +35,11 @@ Users should be able to:
 
 Desktop View
 
-![](./src/images/expenses-chart-one.png)
+![expenses-chart-one](https://github.com/TravisH-bot/expenses-chart-component-main/assets/79767820/287bb324-746c-48dd-8f6d-bafe98c44ae1)
 
 Mobile View
 
-![](./src/images/expenses-chart-two.png)
+![expenses-chart-two](https://github.com/TravisH-bot/expenses-chart-component-main/assets/79767820/f26f2952-8d68-44cc-9076-a010d0147ceb)
 
 ### Links
 
